@@ -217,16 +217,26 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-   .main-section {
-    width: 100%;
+    .main-section {
+    max-width: 600px; 
+    margin-left: 30px;
   }
 
-@media screen and (max-width: 768px) {
-  .main-section {
-    width: 100%;
+
+  @media screen and (max-width: 768px) {
+    .main-section {
+    max-width: 665px; 
+    margin-left: 30px;
+  }
+  #logo {
+    margin-left: 30px;
+    
   }
 
+  nav {
+    margin-right: 30px;
+  }
 @media screen and (max-width: 640px) {
-  #masthead {
+    header {
     position: static;
-  }
+  } */
