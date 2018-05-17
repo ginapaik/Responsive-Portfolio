@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: rgb(147, 155, 184);
 }
 
 h1 {
@@ -75,6 +75,9 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  animation-name: logobox;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 nav {
@@ -106,7 +109,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid rgb(147, 155, 184);
   height: 50px;
 }
 
@@ -162,9 +165,9 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color: rgb(94, 103, 138);
   text-align: center;
-  background: #4aaaa5;
+  background: rgb(196, 201, 219);
   border-bottom: 0;
 }
 
@@ -212,7 +215,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: rgb(147, 155, 184);
   border: 0 none;
 }
 
@@ -271,3 +274,10 @@ input[type=submit] {
       padding-top: 40px;
     }
   }
+
+  @keyframes logobox {
+    5%   {background-color: rgb(196, 201, 219);}
+    25%  {background-color: rgb(107, 120, 167);}
+    50%  {background-color: rgb(150, 161, 199);}
+    100% {background-color: rgb(158, 175, 235);}
+}
