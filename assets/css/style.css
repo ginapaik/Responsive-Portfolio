@@ -277,7 +277,7 @@ input[type=submit] {
 
   @keyframes logobox {
     5%   {background-color: rgb(196, 201, 219);}
-    25%  {background-color: rgb(107, 120, 167);}
-    50%  {background-color: rgb(150, 161, 199);}
-    100% {background-color: rgb(158, 175, 235);}
+    25%  {background-color: rgb(138, 148, 185);}
+    50%  {background-color: rgb(184, 194, 228);}
+    100% {background-color: rgb(101, 105, 117);}
 }
