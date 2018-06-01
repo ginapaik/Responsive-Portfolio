@@ -19,6 +19,11 @@ body {
   clear: both;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(94, 103, 138);
+}
+
 h1,
 h2,
 h3,
