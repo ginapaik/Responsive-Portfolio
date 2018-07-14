@@ -24,6 +24,10 @@ a:link, a:visited {
   color: rgb(94, 103, 138);
 }
 
+a:hover {
+  color: #a7abb4;
+}
+
 h1,
 h2,
 h3,
@@ -55,6 +59,9 @@ h3 {
   font-size: 22px;
 }
 
+h5 {
+  font-weight: 300;
+}
 /* header */
 
 #masthead {
@@ -170,10 +177,11 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: rgb(94, 103, 138);
+  color: #526592;
   text-align: center;
   background: rgb(196, 201, 219);
   border-bottom: 0;
+  opacity: .8;
 }
 
 .auth-image {
